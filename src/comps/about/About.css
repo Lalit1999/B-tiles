@@ -1,4 +1,9 @@
 .color
 {
-	color: red ;
+	color: #000000 ;
+}
+
+.layout
+{
+	display: inline-block;
 }
