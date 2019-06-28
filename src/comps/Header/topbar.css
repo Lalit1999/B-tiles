@@ -1,0 +1,23 @@
+.topbar
+{
+	background-color: rgb(35, 35, 35) ;
+}
+
+.bar-item
+{
+	display: inline-block;
+	font-size: 0.9rem;
+	margin: 0 0.9vw ;
+	padding: 0.8em 0.7vw ;
+	transition: all 0.5s ;
+}
+
+.bar-item a 
+{	text-decoration: none ;
+	color:whitesmoke;
+}
+
+.bar-item:hover
+{
+	background-color: black ;
+}

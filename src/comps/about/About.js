@@ -21,7 +21,7 @@ class About extends React.Component
 				<div className = 'layout'>
 
 					<h3>50 years of experience.</h3>
-					<img src = 'ssfygiuhu' alt = 'image' />
+					<img src = '#' alt = 'image1' />
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 		                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -32,19 +32,19 @@ class About extends React.Component
 				</div>
 				<div>
 					<div>
-						<img src = 'ssfygiuhu' alt = 'image' />
+						<img src = '#' alt = 'image2' />
 						<h4>Top Rated</h4>
 						<p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit.
 							 Officia odio eum corporis consequatur.</p>
 					</div>
 					<div>
-						<img src = 'ssfygiuhu' alt = 'image' />
+						<img src = '#' alt = 'image3' />
 						<h4>Best Quality</h4>
 						<p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit.
 							 Officia odio eum corporis consequatur.</p>
 					</div>
 					<div>
-						<img src = 'ssfygiuhu' alt = 'image' />
+						<img src = '#' alt = 'image4' />
 						<h4>Low Cost</h4>
 						<p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit.
 							 Officia odio eum corporis consequatur.</p>
