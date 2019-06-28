@@ -39,7 +39,7 @@ class About extends React.Component
 				</div>
 				<div>
 					<div>
-						<img src = {Image2}  alt = 'image2' width = '50' height = '50'>
+						<img src = {Image2}  alt = 'image2' width = '50' height = '50'/>
 						<h4>Top Rated</h4>
 						<p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit.
 							 Officia odio eum corporis consequatur.</p>
