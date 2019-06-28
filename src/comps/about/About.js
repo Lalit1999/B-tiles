@@ -10,9 +10,9 @@ class About extends React.Component
 			<div className = 'color'>
 				<div>
 					<h1>About - Us</h1>
-					<div className = 'layout'>
-						<div>Home</div>
-						<div>About-Us</div> 
+					<div>
+						<div className = 'layout'>Home</div>
+						<div className = 'layout'>About-Us</div> 
 					</div>
 				</div>
 				<div>
