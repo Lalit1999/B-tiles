@@ -1,6 +1,12 @@
 .topbar
 {
 	background-color: rgb(35, 35, 35) ;
+	display: flex ;
+	position: fixed; 
+  	width: 100% ;
+  	top: 0 ;
+  	z-index: 14 ;
+  	overflow: hidden;
 }
 
 .bar-item
@@ -22,13 +28,23 @@
 	background-color: black ;
 }
 
-.right-top-bar
+.topbar .right-topbar
 {
-	margin-left: 54vw;
+	margin-left: auto;
 	display: inline-block; 
+}
+
+.right-topbar
+{
+	margin-right: 3vw ;
 }
 
 .logo
 {
 	margin: 0 0.15vw;
+}
+
+.logo:hover
+{
+	transform: scale(1.4);
 }

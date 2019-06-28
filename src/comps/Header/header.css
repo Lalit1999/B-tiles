@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Mukta&display=swap');
+
+#bar
+{
+	background-color: rgb(64, 64, 64);
+	border-bottom: 2px solid black ;
+	position: fixed; 
+  	width: 100% ;
+  	top: 40px ;
+  	z-index: 14 ;
+  	overflow: hidden;
+}
+
+#logo
+{
+	/*padding-top: 1em ;*/
+}
+
+.header-item
+{
+	color: whitesmoke;
+	text-decoration: none ;
+	font-size: 1.55rem ;
+	padding: 1em 1.8vw;
+	transition: all 0.5s ;
+	margin: 0.1em ;
+	font-family: 'Mukta', sans-serif;
+}
+
+.right-header
+{
+	margin-left: auto;
+	margin-right: 1vw ;
+	display: flex;
+}
+
+.right-header .header-item:hover
+{
+	background-color: rgb(35, 35, 35) ;
+	transform: scale(1.2);
+}
