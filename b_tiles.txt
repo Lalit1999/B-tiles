@@ -16,13 +16,21 @@ kya hum theme better bana sakte hai?
 
 to-do (manan)
 -----
- 1. add menu to header.js
- 2. Make b-Tiles logo
-
- (baad me)
  1.Change css of not.js
- 2. Make slidwshoe component for brands, etc
+ 2. Make slideshoe component for brands, etc
  3.Make home.js
 
  (shayad lalit karega)
  1. Make component for title
+
+ changes
+ -------
+ clor and colr class hata di...by default black hi tha
+  and contact.css me duplicate classes mat banaio....directly about.css ki classes use kar sakte hai
+
+  about.css me se margin hatake app.css me daal diya
+
+  logo daala hai..batao theek hai?
+
+  menu daali hai...buggy hai kaafi..sahi kaam nahi kar rahi but filhal yahi chhod raha hu...good night
+  

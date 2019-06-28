@@ -1,0 +1,10 @@
+.burger a
+{
+	border-bottom: 1px solid black !important;
+	padding-left : 4em !important;
+}
+
+.burger, .cheeseburger-menu-inner
+{
+	background-color: rgb(64, 64, 64) ;
+}

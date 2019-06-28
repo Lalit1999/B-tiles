@@ -11,7 +11,7 @@ class Contact extends React.Component
 	render()
 	{
 		return(
-			<div className = 'clor'>
+			<div>
 				<div className = 'bgimage'>
 					<h1>Contact - Us</h1>
 					<div>

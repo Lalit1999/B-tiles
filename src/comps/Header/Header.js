@@ -1,6 +1,10 @@
 import React from 'react' ;
 import {Link} from'react-router-dom' ;
+import CheeseburgerMenu from 'cheeseburger-menu' ;
+import HamburgerMenu from 'react-hamburger-menu' ;
 
+import Menu from './Menu.js' ;
+import Logo from '../images/b.jpg' ;
 import './header.css' ;
 
 class Header extends React.Component
@@ -20,16 +24,41 @@ class Header extends React.Component
 	    this.setState({ menuOpen: false })
 	}
 
-	render()
-	{
-		return (
-			<div className="topbar" id="bar"> 
-				<Link to="/" className="header-item" id="logo"> MARVEL </Link> 
-				<div className = "right-header">
+	checkMobile = () => {
+		if(window.screen.availWidth > 600)
+		{	return (
+				<div className="mini-menu">
 					<Link className="header-item" to='/'> Home </Link>
 					<Link className="header-item" to='/about'> About Us </Link>
 					<Link className="header-item" to='/products'> Products </Link>
 					<Link className="header-item" to='/contact'> Contact </Link>
+				</div>
+				) ;
+		}
+		else
+		{
+			return (
+				<div>
+					<CheeseburgerMenu isOpen={this.state.menuOpen} closeCallback={this.closeMenu}>
+							<Menu closeCallback={this.closeMenu}/>
+					</CheeseburgerMenu>
+					<HamburgerMenu isOpen={this.state.menuOpen} menuClicked={this.openMenu} 
+								   width={32} height={24} strokeWidth={8} color='white' 
+								   borderRadius={1} animationDuration={0.5} />
+				</div>
+				) ;
+		}
+	}
+
+	render()
+	{
+		return (
+			<div className="topbar" id="bar"> 
+				<Link to="/" className="header-item" id="logo"> 
+					<img src={Logo} alt="logo" />
+				</Link> 
+				<div className = "right-header">
+					{this.checkMobile()}
 				</div>
 			</div>
 			) ;

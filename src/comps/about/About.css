@@ -1,8 +1,8 @@
-.colr
+/*.colr
 {
 	color: #000000 ;
 }
-
+*/
 .layout
 {
 	display: inline-block;
@@ -15,12 +15,11 @@
 	background-size: cover ;
 	background-repeat: no-repeat ;
 	padding: 2rem ;
-	margin-top: 7em ;
+	/*margin-top: 10em ;*/
 }
 
 .layout1
 {
 	padding: 3em ;
 	margin:  4em ;
-
 }

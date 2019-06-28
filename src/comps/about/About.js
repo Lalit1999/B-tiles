@@ -13,7 +13,7 @@ class About extends React.Component
 	render()
 	{
 		return(
-			<div className = 'colr'>
+			<div>
 				<div className = 'bgimage'>
 					<h1>About - Us</h1>
 					<div>

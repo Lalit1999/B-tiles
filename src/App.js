@@ -8,6 +8,7 @@ import Product from './comps/Product/Product.js' ;
 import NotFound from './comps/Home/NotFound.js' ;
 import Header from './comps/Header/Header.js' ;
 import TopBar from './comps/Header/TopBar.js' ;
+import './app.css' ;
  
 class App extends React.Component
 {
@@ -15,7 +16,7 @@ class App extends React.Component
 	render()
 	{
 		return(
-			<div>
+			<div className="App">
 				<BrowserRouter>
 		          <div>
 		          	<TopBar />
