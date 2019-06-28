@@ -1,6 +1,13 @@
 import React from 'react';
 import './About.css' ;
 
+
+import Image1 from '../images/main.jpg' ;
+import Image2 from '../images/int3.jpg' ;
+import Image3 from '../images/interior.png' ;
+import Image4 from '../images/internal.jpg' ;
+
+
 class About extends React.Component
 {
 	
@@ -8,7 +15,7 @@ class About extends React.Component
 	{
 		return(
 			<div className = 'color'>
-				<div>
+				<div className = 'bgimage'>
 					<h1>About - Us</h1>
 					<div>
 						<div className = 'layout'>Home</div>
@@ -21,7 +28,7 @@ class About extends React.Component
 				<div className = 'layout'>
 
 					<h3>50 years of experience.</h3>
-					<img src = '#' alt = 'image1' />
+					
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 		                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -32,19 +39,19 @@ class About extends React.Component
 				</div>
 				<div>
 					<div>
-						<img src = '#' alt = 'image2' />
+						<img src = {Image2}  alt = 'image2' width = '50' height = '50'>
 						<h4>Top Rated</h4>
 						<p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit.
 							 Officia odio eum corporis consequatur.</p>
 					</div>
 					<div>
-						<img src = '#' alt = 'image3' />
+						<img src = {Image3} alt = 'image3' />
 						<h4>Best Quality</h4>
 						<p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit.
 							 Officia odio eum corporis consequatur.</p>
 					</div>
 					<div>
-						<img src = '#' alt = 'image4' />
+						<img src = {Image4} alt = 'image4' />
 						<h4>Low Cost</h4>
 						<p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit.
 							 Officia odio eum corporis consequatur.</p>
@@ -61,4 +68,4 @@ class About extends React.Component
 export default About;
                          
 
-                       
+                       // <span> <img src = {Pencil} alt = 'pencil' width = '15' height = '15'/></span>

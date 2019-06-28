@@ -7,3 +7,12 @@
 {
 	display: inline-block;
 }
+
+.bgimage
+{
+	background-image: url('../images/main.jpg');
+	text-align: center ;
+	background-size: cover ;
+	background-repeat: no-repeat ;
+	padding: 2rem ;
+}
