@@ -17,8 +17,8 @@ class About extends React.Component
 				<div className = 'bgimage'>
 					<h1>About - Us</h1>
 					<div>
-						<div className = 'layout'>Home</div>
-						<div className = 'layout'>About-Us</div> 
+						<div className = 'layout'>Home - </div>
+						<div className = 'layout'> About-Us</div> 
 					</div>
 				</div>
 				<div>
