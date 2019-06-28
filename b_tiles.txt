@@ -8,3 +8,21 @@ area of usage
 - commercial: same
 
 bifurcate on basis of pricing slabs
+
+ask
+----
+kya hum theme better bana sakte hai?
+
+
+to-do (manan)
+-----
+ 1. add menu to header.js
+ 2. Make b-Tiles logo
+
+ (baad me)
+ 1.Change css of not.js
+ 2. Make slidwshoe component for brands, etc
+ 3.Make home.js
+
+ (shayad lalit karega)
+ 1. Make component for title
