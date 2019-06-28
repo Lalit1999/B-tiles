@@ -2,7 +2,6 @@ import React from 'react';
 import './About.css' ;
 
 
-import Image1 from '../images/main.jpg' ;
 import Image2 from '../images/int3.jpg' ;
 import Image3 from '../images/interior.png' ;
 import Image4 from '../images/internal.jpg' ;
@@ -14,7 +13,7 @@ class About extends React.Component
 	render()
 	{
 		return(
-			<div className = 'color'>
+			<div className = 'colr'>
 				<div className = 'bgimage'>
 					<h1>About - Us</h1>
 					<div>

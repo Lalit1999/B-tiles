@@ -1,4 +1,4 @@
-.color
+.colr
 {
 	color: #000000 ;
 }
@@ -15,4 +15,5 @@
 	background-size: cover ;
 	background-repeat: no-repeat ;
 	padding: 2rem ;
+	margin-top: 7em ;
 }
