@@ -8,3 +8,13 @@
 {
 	background-color: rgb(64, 64, 64) ;
 }
+
+.menu-item
+{
+	color: whitesmoke;
+	font-size: 1.55rem ;
+	text-decoration: none ;
+	transition: all 0.5s ;
+	margin: 0.1em ;
+	font-family: 'Mukta', sans-serif;
+}

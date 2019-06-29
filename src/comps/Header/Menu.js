@@ -8,10 +8,10 @@ class Menu extends Component {
 		return (
 			<div>
 				<div className="burger" >
-					<Link className="header-item" to='/'> Home </Link>
-					<Link className="header-item" to='/about'> About Us </Link>
-					<Link className="header-item" to='/products'> Products </Link>
-					<Link className="header-item" to='/contact'> Contact </Link>
+					<Link className="menu-item" to='/'> Home </Link>
+					<Link className="menu-item" to='/about'> About Us </Link>
+					<Link className="menu-item" to='/products'> Products </Link>
+					<Link className="menu-item" to='/contact'> Contact </Link>
 				</div>
 			</div>
 		);

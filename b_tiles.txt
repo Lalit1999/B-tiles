@@ -16,9 +16,8 @@ kya hum theme better bana sakte hai?
 
 to-do (manan)
 -----
- 1.Change css of not.js
- 2. Make slideshoe component for brands, etc
- 3.Make home.js
+ 1. Make slideshoe component for brands, etc
+ 2. Make home.js
 
  (shayad lalit karega)
  1. Make component for title

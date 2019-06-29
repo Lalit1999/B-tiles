@@ -53,3 +53,13 @@
 	background-color: rgb(35, 35, 35) ;
 	transform: scale(1.2);
 }
+
+@media (max-width: 600px)
+{
+	.right-header>div
+	{
+		padding-right: 6.1vw;
+	    padding-top: 3.6vh;
+	    padding-left: 3.7vw;
+	}
+}
