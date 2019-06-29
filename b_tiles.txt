@@ -17,6 +17,9 @@ kya hum theme better bana sakte hai?
 to-do (manan)
 -----
  1. Make slideshoe component for brands, etc
+ 	- try to change class names
+ 	- experiment something
+ 	- raayta sameto (agar apne app nahi hua to) 
  2. Make home.js
 
  (shayad lalit karega)

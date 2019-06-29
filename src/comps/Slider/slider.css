@@ -1,0 +1,48 @@
+.slide
+{
+	width: 100vw !important ;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+.cont
+{
+	width:100% ;
+	text-align: center;
+}
+
+.row
+{	display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    /*margin-right: -15px;
+    margin-left: -15px ;*/
+}
+
+.ht-swiper-button-nav
+{
+	position: absolute;
+	z-index: 9 ;
+	cursor: pointer ;
+	width: 50px ;
+	height: 50px ;
+	color: black ;
+	top: 50%
+}
+
+.slider-parent .ht-swiper-button-prev
+{
+	left:100px;
+}
+
+.slider-parent .ht-swiper-button-next
+{
+	right:100px;
+}
+
+.slider-parent .ht-swiper-button-nav
+{
+	background-color: grey ;
+}
