@@ -24,7 +24,7 @@ class About extends React.Component
 				<div>
 					<h2>Welcome to B-tiles</h2>
 				</div>
-				<div className = 'layout'>
+				<div >
 
 					<h3>50 years of experience.</h3>
 					
