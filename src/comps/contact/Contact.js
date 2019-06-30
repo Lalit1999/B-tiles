@@ -26,10 +26,12 @@ class Contact extends React.Component
 				<div className = 'ic'>
 					<div className = 'align'>
 						<h3>Leave Your Message</h3>
-						<input  type = "text" placeholder = "Your Name" />
-						<input  type = "text" placeholder = "Your Email" />
-						<input  type = "text" placeholder = "Your Message" />
-						<button  type = "submit">Send</button>
+						<div>
+							<input className = 'in' type = "text" placeholder = "Your Name" />
+							<input className = 'in' type = "text" placeholder = "Your Email" />
+							<input className = 'in' type = "text" placeholder = "Your Message" />
+							<button className = 'in' type = "submit">Send</button>
+						</div>
 					</div>
 					<div className = 'align'>
 						<h3>Contact Information</h3>
