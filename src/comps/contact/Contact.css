@@ -3,13 +3,14 @@
 	color: black ;
 }*/
 
-/*.ic
+.ic
 {
 	display: flex;
 	justify-content: center;
 
 }
-*/
+
+
 .map
 {
 	text-align: center;
@@ -18,9 +19,19 @@
 .align
 {
 	display: inline-block;
+	margin : 10em ;
 }
 
 .in
 {
 	display: block;
+	margin : 2rem 2rem ;
+	width: 150% ;
+	height:	100% ;
+}
+
+.but
+{
+	display: block;
+	margin : 2rem 2rem ;
 }

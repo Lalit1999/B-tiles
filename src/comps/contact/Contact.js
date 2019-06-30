@@ -21,16 +21,24 @@ class Contact extends React.Component
 					</div>
 				</div>	
 				<div className = 'map'>
-					<img className = 'ic'src = {Image4} alt = "map"/>
+					<img src = {Image4} alt = "map"/>
 				</div>
 				<div className = 'ic'>
 					<div className = 'align'>
 						<h3>Leave Your Message</h3>
-						<div>
-							<input className = 'in' type = "text" placeholder = "Your Name" />
-							<input className = 'in' type = "text" placeholder = "Your Email" />
-							<input className = 'in' type = "text" placeholder = "Your Message" />
-							<button className = 'in' type = "submit">Send</button>
+						<div>	
+							<div>
+								<input className = 'in' type = "text" placeholder = "Your Name" />
+							</div>
+							<div>
+								<input className = 'in' type = "text" placeholder = "Your Email" />
+							</div>
+							<div>
+								<input className = 'in' type = "text" placeholder = "Your Message" />
+							</div>
+							<div>
+								<button className = 'but' type = "submit">Send</button>
+							</div>
 						</div>
 					</div>
 					<div className = 'align'>
