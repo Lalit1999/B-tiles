@@ -20,20 +20,24 @@ class Contact extends React.Component
 						<div className = 'layout'>Contact-Us</div> 
 					</div>
 				</div>	
-				<div>
-				<img src = {Image4} alt = "map" />
-					<h3>Leave Your Message</h3>
-					<input type = "text" placeholder = "Your Name" />
-					<input type = "text" placeholder = "Your Email" />
-					<input type = "text" placeholder = "Your Message" />
-					<button type = "submit">Send</button>
+				<div className = 'map'>
+					<img className = 'ic'src = {Image4} alt = "map"/>
 				</div>
-				<div>
-					<h3>Contact Information</h3>
-					<p>yaha address aayega</p>
-					<p>yaha phone number</p>
-					<p>yaha email-address ayega</p>
-				</div>      		
+				<div className = 'ic'>
+					<div className = 'align'>
+						<h3>Leave Your Message</h3>
+						<input  type = "text" placeholder = "Your Name" />
+						<input  type = "text" placeholder = "Your Email" />
+						<input  type = "text" placeholder = "Your Message" />
+						<button  type = "submit">Send</button>
+					</div>
+					<div className = 'align'>
+						<h3>Contact Information</h3>
+						<p>A-11 Main Market Shiv vihar Delhi - 34</p>
+						<p>+91 - 9564-328-921</p>
+						<p>b.tiles@gmail.com</p>
+					</div>      		
+				</div>
 			</div>
 		) ;
 	}

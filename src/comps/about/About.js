@@ -40,19 +40,19 @@ class About extends React.Component
 					<div >
 						<img src = {Image2}  alt = 'image2' width = '50' height = '50'/>
 						<h4>Top Rated</h4>
-						<p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit.
+						<p width = '5'>Lorem ipsum dolor sit amet, consec tetur adipisicing elit.
 							 Officia odio eum corporis consequatur.</p>
 					</div>
 					<div >
 						<img src = {Image3} alt = 'image3' width = '50' height = '50' />
 						<h4>Best Quality</h4>
-						<p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit.
+						<p width = '5'>Lorem ipsum dolor sit amet, consec tetur adipisicing elit.
 							 Officia odio eum corporis consequatur.</p>
 					</div>
 					<div>
 						<img src = {Image4} alt = 'image4' width = '50' height = '50' />
 						<h4>Low Cost</h4>
-						<p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit.
+						<p width = '5'>Lorem ipsum dolor sit amet, consec tetur adipisicing elit.
 							 Officia odio eum corporis consequatur.</p>
 					</div>
 					
