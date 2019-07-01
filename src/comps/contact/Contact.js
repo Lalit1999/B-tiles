@@ -41,6 +41,7 @@ class Contact extends React.Component
 							</div>
 						</div>
 					</div>
+					<div className = 'vl'></div>
 					<div className = 'align'>
 						<h3>Contact Information</h3>
 						<p>A-11 Main Market Shiv vihar Delhi - 34</p>

@@ -19,19 +19,30 @@
 .align
 {
 	display: inline-block;
-	margin : 10em ;
+	margin : 5em ;
+	margin-top: 2px ;
+	padding: 1rem ;
 }
 
 .in
 {
 	display: block;
 	margin : 2rem 2rem ;
-	width: 150% ;
+	width: 100% ;
 	height:	100% ;
+	font-size: 1.5rem ;
 }
 
 .but
 {
 	display: block;
 	margin : 2rem 2rem ;
+}
+
+.vl {
+  border-left: 1px solid grey;
+  height: 300px;
+  left: 40%;
+  margin-left: -3px;
+  top: 80 ;
 }
