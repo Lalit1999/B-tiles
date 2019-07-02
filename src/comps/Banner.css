@@ -1,0 +1,22 @@
+.banner-title
+{
+	font-size: 2rem ;
+	border-bottom: 1px solid black ;
+	color: darkblue;
+	font-family: 'Mukta' ;
+	margin-left: 2em ;
+	display: inline-block; 
+	padding: 0 1em ;
+	transition: all 0.6s ;
+}
+
+.banner-title:hover
+{
+	background-color: lightgrey ;
+}
+
+.banner-cont
+{
+	display: flex ;
+	margin-left: 2em ;
+}

@@ -6,6 +6,26 @@ import wall from '../images/wall.jpg' ;
 import floor from '../images/floor.jpg' ;
 import exterior from '../images/exterior.jpg' ;
 
+import Banner from '../Banner.js' ;
+
+const tiles = [
+	{
+		name: 'Wall' ,
+		img : 'wall' ,
+		clr: 'red' 
+	} ,
+	{
+		name: 'Floor' ,
+		img : 'floor' ,
+		clr: 'blue' 
+	} ,
+	{
+		name: 'Exterior' ,
+		img : 'exterior' ,
+		clr: 'green' 
+	} ,
+] ;
+
 class Home extends React.Component
 {	constructor()
 	{
@@ -36,7 +56,7 @@ class Home extends React.Component
 		return (
 			<div>
 				<Slider data={this.data}/>
-				<div> This is Home </div>
+				<Banner title="Residential" items={tiles}/>
 				<div> This is Home </div>
 				<div> This is Home </div>
 			</div>

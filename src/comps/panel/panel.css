@@ -1,0 +1,51 @@
+.panel
+{
+	margin: 0.5em 1.5em ;
+	border: 1px solid black;
+	/*padding: 1em ;*/
+	min-width: 25vw ;
+	min-height: 20vh ;
+}
+
+.wall
+{
+	background-image : url('../images/wall.jpg') ;
+}
+
+.floor
+{	background-image : url('../images/floor.jpg') ;
+}
+
+.exterior
+{
+	background-image : url('../images/exterior.jpg') ;
+}
+
+.red
+{
+	background-color: rgba(200, 0, 0, 0.8);
+}
+
+.blue
+{
+	background-color: rgba(0, 0, 200, 0.8);
+}
+
+.green
+{
+	background-color: rgba(0, 200, 0, 0.8);
+}
+
+.inner
+{
+	width: 100%;
+	height: 100% ;
+}
+
+.padded
+{
+	height: 100% ;
+	width: 100%;
+	padding-top: 1.5em ;
+	/*padding-left: 0.2em ;*/
+}
