@@ -1,8 +1,9 @@
 import React from 'react';
 import './Contact.css' ;
 import '../about/About.css' ;
+import { faPhoneAlt, faEnvelope, faMap} from '@fortawesome/free-solid-svg-icons' ;
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome' ;
 
-import Image4 from '../images/dummy-map.jpg' ;
 import Title from '../title/Title.js' ;
 
 class Contact extends React.Component
@@ -36,7 +37,7 @@ class Contact extends React.Component
 				<div className = 'map'>
 					<div className="mapouter">
 						<div className="gmap_canvas">
-							<iframe width="1100" height="400" id="gmap_canvas" 
+							<iframe title = "map" width="1100" height="400" id="gmap_canvas" 
 							src="https://maps.google.com/maps?q=magolpuri%20market%20&t=&z=13&ie=UTF8&iwloc=&output=embed" 
 							frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0"></iframe>
 						</div>
@@ -64,9 +65,9 @@ class Contact extends React.Component
 					<div className = 'align right'>
 						<h3>Contact Information</h3>
 						<div>
-							<p>{this.state.data.address}</p>
-							<p>{this.state.data.phone}</p>
-							<p>{this.state.data.email}</p>
+							<p><FontAwesomeIcon icon = {faMap} />&nbsp;{this.state.data.address}</p>
+							<p><FontAwesomeIcon icon = {faPhoneAlt} />&nbsp;{this.state.data.phone}</p>
+							<p><FontAwesomeIcon icon = {faEnvelope} />&nbsp;{this.state.data.email}</p>
 						</div>
 					</div>      		
 				</div>
