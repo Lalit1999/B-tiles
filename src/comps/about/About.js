@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css' ;
-
+import Title from '../title/Title.js' ; 
 
 import Image2 from '../images/int3.jpg' ;
 import Image3 from '../images/interior.png' ;
@@ -14,13 +14,7 @@ class About extends React.Component
 	{
 		return(
 			<div>
-				<div className = 'bgimage'>
-					<h1 >About - Us</h1>
-					<div>
-						<div className = 'layout'>Home - </div>
-						<div className = 'layout'> About-Us</div> 
-					</div>
-				</div>
+				<Title name = 'About Us' items={["Home -", "About Us"]}/>
 				<div>
 					<h2>Welcome to B-tiles</h2>
 				</div>

@@ -10,6 +10,13 @@
 	font-size : 2rem ;
 }
 
+.layout a
+{
+	text-decoration: none ;	
+	color : white ;
+}
+
+
 .bgimage
 {
 	background-image: url('../images/main.jpg');
@@ -18,6 +25,7 @@
 	background-repeat: no-repeat ;
 	padding: 2rem ;
 	margin-bottom: 2rem ;
+	color : white;
 	/*margin-top: 10em ;*/
 }
 
