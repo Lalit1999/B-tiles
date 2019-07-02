@@ -1,8 +1,3 @@
-/*.colr
-{
-	color: #000000 ;
-}
-*/
 .layout
 {
 	display: inline-block;
@@ -16,6 +11,22 @@
 	color : white ;
 }
 
+.fonts
+{
+	font-family: 'Mukta', sans-serif;
+	font-size: 1.6rem ;
+	margin: .5em 2em ;
+}
+
+.image
+{	margin-top: 3em ;
+	margin-left: 5em ;
+}
+
+.sb 
+{
+	display: flex;
+}
 
 .bgimage
 {
@@ -33,4 +44,5 @@
 {
 	padding: 3em ;
 	margin:  4em ;
+	display: flex;
 }
