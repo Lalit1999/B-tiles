@@ -3,38 +3,57 @@ import './Contact.css' ;
 import '../about/About.css' ;
 
 import Image4 from '../images/dummy-map.jpg' ;
-
+import Title from '../title/Title.js' ;
 
 class Contact extends React.Component
-{
-	
+{	
+	constructor(props)
+	{
+		super(props) ;
+		this.state = {
+			data : {}
+		}
+	}
+	componentDidMount = () => {
+		fetch('https://b-tiles-api.herokuapp.com/data?name=Contact')
+		.then( res => {
+			    if ( res.ok )
+	              return res.json() ;
+	            else 
+	              throw Error(res.statusText)
+	          } )
+	    .then( resp => {
+	            // console.log(resp) ;
+	            this.setState({data: resp});
+	                	} )
+	    .catch( err => console.log(err) ) ;
+	}
 	render()
 	{
 		return(
 			<div>
-				<div className = 'bgimage'>
-					<h1>Contact - Us</h1>
-					<div>
-						<div className = 'layout'>Home - </div>
-
-						<div className = 'layout'>Contact-Us</div> 
-					</div>
-				</div>	
+				<Title name = 'Contact Us' items={["Home -", "Contact Us"]}/>	
 				<div className = 'map'>
-					<img src = {Image4} alt = "map"/>
+					<div className="mapouter">
+						<div className="gmap_canvas">
+							<iframe width="1100" height="400" id="gmap_canvas" 
+							src="https://maps.google.com/maps?q=magolpuri%20market%20&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+							frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0"></iframe>
+						</div>
+					</div>
 				</div>
 				<div className = 'ic'>
-					<div className = 'align'>
-						<h3>Leave Your Message</h3>
+					<div className = 'align left'>
+						<h3 className = 'size'>Leave Your Message</h3>
 						<div>	
 							<div>
-								<input className = 'in' type = "text" placeholder = "Your Name" />
+								<input className = 'in' type = "text" placeholder = "Your Name" required/>
 							</div>
 							<div>
-								<input className = 'in' type = "text" placeholder = "Your Email" />
+								<input className = 'in' type = "text" placeholder = "Your Email" required/>
 							</div>
 							<div>
-								<input className = 'in' type = "text" placeholder = "Your Message" />
+								<input className = 'in' type = "text" placeholder = "Your Message" required/>
 							</div>
 							<div>
 								<button className = 'but' type = "submit">Send</button>
@@ -42,11 +61,13 @@ class Contact extends React.Component
 						</div>
 					</div>
 					<div className = 'vl'></div>
-					<div className = 'align'>
+					<div className = 'align right'>
 						<h3>Contact Information</h3>
-						<p>A-11 Main Market Shiv vihar Delhi - 34</p>
-						<p>+91 - 9564-328-921</p>
-						<p>b.tiles@gmail.com</p>
+						<div>
+							<p>{this.state.data.address}</p>
+							<p>{this.state.data.phone}</p>
+							<p>{this.state.data.email}</p>
+						</div>
 					</div>      		
 				</div>
 			</div>
