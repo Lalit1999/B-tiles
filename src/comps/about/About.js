@@ -5,6 +5,7 @@ import Title from '../title/Title.js' ;
 import Image2 from '../images/int3.jpg' ;
 import Image3 from '../images/interior.png' ;
 import Image4 from '../images/internal.jpg' ;
+import Image1 from '../images/it1.jpg' ;
 
 
 class About extends React.Component
@@ -35,14 +36,22 @@ class About extends React.Component
 		return(
 			<div>
 				<Title name = 'About Us' items={["Home -", "About Us"]}/>
-				<div>
-					<h2>{this.state.data.greet}</h2>
-				</div>
-				<div >
+				<div className = 'sb'>
+					<div>
+						<img className = 'image' src = {Image1}  alt = 'image2' width = '500' 
+						height = '400'/>
+					</div>
+					<div className = 'fonts'>
+						<div>
+							<h2>{this.state.data.greet}</h2>
+						</div>
+						<div >
 
-					<h3>{this.state.data.subtitle}</h3>
-					
-					<p>{this.state.data.message}</p>
+							<h3>{this.state.data.subtitle}</h3>
+							
+							<p>{this.state.data.message}</p>
+						</div>
+					</div>
 				</div>
 				<div className = 'layout1'>
 					<div >
