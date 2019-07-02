@@ -9,9 +9,29 @@ import Image4 from '../images/internal.jpg' ;
 
 class About extends React.Component
 {
-	
-	render()
+	constructor(props)
 	{
+		super(props) ;
+		this.state = {
+			data : {}
+		}
+	}
+	componentDidMount = () => {
+		fetch('https://b-tiles-api.herokuapp.com/data?name=About')
+		.then( res => {
+			    if ( res.ok )
+	              return res.json() ;
+	            else 
+	              throw Error(res.statusText)
+	          } )
+	    .then( resp => {
+	            console.log(resp) ;
+	            // this.setState({data: resp});
+	                	} )
+	    .catch( err => console.log(err) ) ;
+	}
+	render()
+	{	
 		return(
 			<div>
 				<Title name = 'About Us' items={["Home -", "About Us"]}/>
