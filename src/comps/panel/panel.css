@@ -4,7 +4,7 @@
 	border: 1px solid black;
 	/*padding: 1em ;*/
 	min-width: 25vw ;
-	min-height: 20vh ;
+	min-height: 40vh ;
 	color: white;
 	font-weight: bold ;
 	font-size: 2rem ;
@@ -23,20 +23,36 @@
 {
 	background-image : url('../images/exterior.jpg') ;
 }
-
 .red
 {
-	background-color: rgba(200, 0, 0, 0.8);
+	background-color: rgba(0, 0, 0, 0.3);
+	transition: all 0.3s ;
 }
 
 .blue
 {
-	background-color: rgba(0, 0, 200, 0.8);
+	transition: all 0.3s ;
+	background-color: rgba(0, 0, 0, 0.3);
 }
 
 .green
 {
-	background-color: rgba(0, 200, 0, 0.8);
+	transition: all 0.3s ;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+.red:hover
+{
+	background-color: rgba(200, 0, 0, 0.6);
+}
+
+.blue:hover
+{
+	background-color: rgba(0, 0, 200, 0.6);
+}
+
+.green:hover
+{
+	background-color: rgba(0, 200, 0, 0.6);
 }
 
 .inner

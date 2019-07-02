@@ -8,6 +8,7 @@ class Title extends React.Component
 			case "Home -" : return '' ;
 			case "Contact Us" : return 'contact';
 			case "About Us" : return 'about' ;
+			default : return '' ;
 		}
 
 	}

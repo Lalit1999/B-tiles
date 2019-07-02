@@ -2,6 +2,7 @@ import React from 'react' ;
 import {Link} from'react-router-dom' ;
 import CheeseburgerMenu from 'cheeseburger-menu' ;
 import HamburgerMenu from 'react-hamburger-menu' ;
+import Popup from "reactjs-popup";
 
 import Menu from './Menu.js' ;
 import Logo from '../images/b.jpg' ;
@@ -30,7 +31,10 @@ class Header extends React.Component
 				<div className="mini-menu">
 					<Link className="header-item" to='/'> Home </Link>
 					<Link className="header-item" to='/about'> About Us </Link>
-					<Link className="header-item" to='/products'> Products </Link>
+					<Popup trigger={<span className="header-item"> Products </span>}
+				      position="bottom center" on="hover" >
+				      <p className="pop"> Hello </p>
+				    </Popup>
 					<Link className="header-item" to='/contact'> Contact </Link>
 				</div>
 				) ;
