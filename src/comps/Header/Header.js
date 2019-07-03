@@ -33,7 +33,12 @@ class Header extends React.Component
 					<Link className="header-item" to='/about'> About Us </Link>
 					<Popup trigger={<span className="header-item"> Products </span>}
 				      position="bottom center" on="hover" >
-				      <p className="pop"> Hello </p>
+				      <div>
+				      	<p className="pop"> Hello </p>
+				      	<p className="pop"> Hello </p>
+				      	<p className="pop"> Hello </p>
+				      	<p className="pop"> Hello </p>
+				      </div>
 				    </Popup>
 					<Link className="header-item" to='/contact'> Contact </Link>
 				</div>

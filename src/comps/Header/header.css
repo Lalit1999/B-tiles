@@ -8,11 +8,11 @@
   	width: 100% ;
   	top: 40px ;
   	z-index: 14 ;
-  	/*overflow: hidden;*/
+  	overflow: visible;
 }
 .pop
 {
-	position: fixed;
+	/*position: fixed;*/
 	z-index: 19;
 	background-color: white ;
 }
