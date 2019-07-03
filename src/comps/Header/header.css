@@ -64,6 +64,17 @@
 	margin-top: 1.6em ;
 }
 
+.popcon
+{
+	display: flex;
+	padding: 1px ;
+}
+
+.popcon div
+{
+	margin: 1em ;
+}
+
 .right-header .header-item:hover
 {
 	background-color: rgb(35, 35, 35) ;

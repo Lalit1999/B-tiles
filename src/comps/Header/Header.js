@@ -8,6 +8,8 @@ import Menu from './Menu.js' ;
 import Logo from '../images/b.jpg' ;
 import './header.css' ;
 
+import int3 from '../images/int3.jpg' ;
+
 class Header extends React.Component
 {	constructor(props) {
 	    super(props)
@@ -33,11 +35,12 @@ class Header extends React.Component
 					<Link className="header-item" to='/about'> About Us </Link>
 					<Popup trigger={<span className="header-item"> Products </span>}
 				      position="bottom center" on="hover" >
-				      <div>
-				      	<p className="pop"> Hello </p>
-				      	<p className="pop"> Hello </p>
-				      	<p className="pop"> Hello </p>
-				      	<p className="pop"> Hello </p>
+				      <div className="pop-p">
+				      	<div className="popcon">
+				      		<div> Residential </div>
+				      		<div> Commercial </div>
+				      		<img src={int3} alt="example" width="50" height="60"/>
+				      	</div>
 				      </div>
 				    </Popup>
 					<Link className="header-item" to='/contact'> Contact </Link>

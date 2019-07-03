@@ -10,6 +10,12 @@
 	font-size: 2rem ;
 }
 
+.wall2
+{
+	background-image : url('../images/img2.jpg') ;
+	background-position: right;
+}
+
 .wall
 {
 	background-image : url('../images/wall.jpg') ;
@@ -17,11 +23,26 @@
 
 .floor
 {	background-image : url('../images/floor.jpg') ;
+	background-position: bottom;
+}
+
+.floor2
+{	background-image : url('../images/t5.jpg') ;
+	background-size: cover;
+	background-position: center;  
 }
 
 .exterior
 {
-	background-image : url('../images/exterior.jpg') ;
+	background-position: center;
+	background-size: cover;
+	background-image : url('../images/it1.jpg') ;
+}
+
+.exterior2
+{
+	background-image : url('../images/t2.jpg') ;
+	background-position: right ;
 }
 .red
 {

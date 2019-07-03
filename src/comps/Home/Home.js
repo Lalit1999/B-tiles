@@ -6,7 +6,7 @@ import Parallax from '../Parallax/Parallax.js' ;
 
 import wall from '../images/wall.jpg' ;
 import floor from '../images/floor.jpg' ;
-import exterior from '../images/exterior.jpg' ;
+import exterior from '../images/it1.jpg' ;
 
 const tiles = [
 	{
@@ -23,6 +23,24 @@ const tiles = [
 		name: 'Exterior' ,
 		img : 'exterior' ,
 		clr: 'green' 
+	} ,
+] ;
+
+const tiles2 = [
+	{
+		name: 'Wall' ,
+		img : 'wall2' ,
+		clr: 'green' 
+	} ,
+	{
+		name: 'Floor' ,
+		img : 'floor2' ,
+		clr: 'red' 
+	} ,
+	{
+		name: 'Exterior' ,
+		img : 'exterior2' ,
+		clr: 'blue' 
 	} ,
 ] ;
 
@@ -57,7 +75,7 @@ class Home extends React.Component
 			<div>
 				<Slider data={this.data}/>
 				<Banner title="Residential" items={tiles}/>
-				<Banner title="Commercial" items={tiles}/>
+				<Banner title="Commercial" items={tiles2}/>
 				<Parallax text="Build your dream home with B-Tiles" />
 				<div> This is Home </div>
 				<div> This is Home </div>
