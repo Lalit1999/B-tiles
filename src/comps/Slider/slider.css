@@ -56,6 +56,17 @@
 	transition: all 0.2s ;
 }
 
+.arrow2
+{
+	display: inline-block;
+	background-color: grey ;
+	padding: 0.3em ;
+	margin: 0.3em 0 ;
+	border-radius: 1rem ;
+	cursor: pointer ;
+	transition: all 0.2s ;
+}
+
 .arrow:hover
 {
 	background-color: rgba(255, 255, 255, 0.4) ;
