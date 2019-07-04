@@ -7,14 +7,29 @@
 	min-height: 50vw ;
 }
 
+.slide2
+{	
+	min-height: 5vw ;
+}
+
+.brand-con
+{
+	background-color: white ;
+	padding: 2em 1em ;
+}
+
 .cont
 {
 	width:100% ;
 	text-align: center;
 	background-color: rgba(0, 0, 0, 0.4) ;
 	min-height: 50vw ;
-	/*margin-left: 9vw ;*/
-	/*margin-right: 10vw ;*/
+}
+
+.cont2, .cont2 img
+{
+	height: 70px ;
+	width: 250px ;
 }
 
 .row
@@ -45,6 +60,18 @@
 {
 	background-color: rgba(255, 255, 255, 0.4) ;
 	border : 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.slider-parent2
+{
+	background-color: #184971 ;
+	padding: 1em ;
+	margin-top: 1em ;
+}
+
+.slider-parent2>div
+{
+	border-radius: 1rem ;
 }
 
 .slider-parent .prev
@@ -87,6 +114,17 @@
 	color: whitesmoke;
 }
 
+.brand-heading
+{
+	font-weight: bold ;
+	/*letter-spacing: 1px ;*/
+	text-align: center; 
+	font-family: 'Mukta' ;
+	position: relative; 
+	font-size: 3rem ;
+	margin : 0;
+	background-color: white ;
+}
 .slide-in-top {
 	animation: slide-in-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
@@ -115,13 +153,4 @@
   }
 }
 
-@keyframes fadeInUp {
-  0% {
-    -webkit-transform: translate3d(0, 100%, 0);
-    opacity: 0;
-    transform: translate3d(0, 100%, 0); }
-  to {
-    -webkit-transform: translateZ(0);
-    opacity: 1;
-    transform: translateZ(0); } 
-}
+

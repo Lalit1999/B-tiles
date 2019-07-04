@@ -5,7 +5,8 @@ import './Banner.css' ;
 
 class Banner extends React.Component
 {	createPanel = () => {
-		return this.props.items.map((item) => <Panel name={item.name} clr={item.clr} img={item.img}/>) 
+		return this.props.items.map((item) => <Panel key={item.name}
+									name={item.name} clr={item.clr} img={item.img}/>) 
 	}
 	render()
 	{

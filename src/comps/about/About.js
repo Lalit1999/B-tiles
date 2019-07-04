@@ -1,11 +1,10 @@
 import React from 'react';
 import './About.css' ;
 import Title from '../title/Title.js' ; 
-import Flex from '../flex/Flex.js' ;
 
-import Image2 from '../images/int3.jpg' ;
-import Image3 from '../images/interior.png' ;
-import Image4 from '../images/internal.jpg' ;
+import Image2 from '../images/ic1.png' ;
+import Image3 from '../images/ic2.png' ;
+import Image4 from '../images/ic3.png' ;
 import Image1 from '../images/it1.jpg' ;
 
 
@@ -60,9 +59,9 @@ class About extends React.Component
 							<img className = 'margin' src = {Image2}  alt = 'image2' width = '50' height = '50'/>
 						</div>
 						<div>
-							<h4>Top Rated</h4>
-							<p width = '5'>Lorem ipsum dolor sit amet, consec tetur adipisicing elit.
-								 Officia odio eum corporis consequatur.</p>
+							<h4>Best Rated</h4>
+							<p width = '5'>We are among one of the Delhi's best rated Tile Dealers.
+							And we have built-up client's trust over the years.</p>
 						</div>
 					</div>
 					<div className = 'sb' >
@@ -71,8 +70,8 @@ class About extends React.Component
 						</div>
 						<div>
 							<h4>Best Quality</h4>
-							<p width = '5'>Lorem ipsum dolor sit amet, consec tetur adipisicing elit.
-								 Officia odio eum corporis consequatur.</p>
+							<p width = '5'>We believe that quality is of utmost importance which is
+								showcased by our highest-quality tile range</p>
 						</div>
 					</div>
 					<div className = 'sb '>
@@ -81,13 +80,11 @@ class About extends React.Component
 						</div>
 						<div>
 							<h4>Low Cost</h4>
-							<p width = '5'>Lorem ipsum dolor sit amet, consec tetur adipisicing elit.
-								 Officia odio eum corporis consequatur.</p>
+							<p width = '5'>We maintain quality and trust but not at the cost of your
+							pocket, as we do out best to make lowest prices available</p>
 						</div>
 					</div>
-					
 				</div>
-				<Flex />
 			</div>
 
 

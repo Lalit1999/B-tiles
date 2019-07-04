@@ -48,6 +48,7 @@ class Slider extends Component
               ),
 		    autoplay: {
 		        delay: 3000,
+                disableOnInteraction: false
 		    }
 		}
 
