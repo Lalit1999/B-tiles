@@ -33,17 +33,9 @@ class Header extends React.Component
 				<div className="mini-menu">
 					<Link className="header-item" to='/'> Home </Link>
 					<Link className="header-item" to='/about'> About Us </Link>
-					<Popup trigger={<span className="header-item"> Products </span>}
-				      position="bottom center" on="hover" >
-				      <div className="pop-p">
-				      	<div className="popcon">
-				      		<div> Residential </div>
-				      		<div> Commercial </div>
-				      		<img src={int3} alt="example" width="50" height="60"/>
-				      	</div>
-				      </div>
-				    </Popup>
-					<Link className="header-item" to='/contact'> Contact </Link>
+					<Link className="header-item" to='/product'> Product </Link>
+				    <Link className="header-item" to='/contact'> Contact </Link>
+					<Link className="header-item" to='/login'> Login </Link>
 				</div>
 				) ;
 		}

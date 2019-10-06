@@ -8,6 +8,9 @@ import Product from './comps/Product/Product.js' ;
 import NotFound from './comps/Home/NotFound.js' ;
 import Header from './comps/Header/Header.js' ;
 import TopBar from './comps/Header/TopBar.js' ;
+import Login from './comps/Login/Login.js' ;
+import Register from './comps/Login/Register.js' ;
+
 import './app.css' ;
  
 class App extends React.Component
@@ -26,7 +29,9 @@ class App extends React.Component
 		              <Route path='/about' exact component={About}/>
 		              <Route path='/contact' exact component={Contact}/>
 		              <Route path='/product' exact component={Product}/>
-		              <Route exact component={NotFound} />
+		              <Route path='/login' exact component={Login} />
+              		  <Route path='/register' exact component={Register} />
+                      <Route exact component={NotFound} />
 		            </Switch>
 		          </div>
 		        </BrowserRouter>	      		
