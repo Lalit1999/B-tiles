@@ -1,0 +1,30 @@
+.searchbox
+{
+	text-align: center ;
+	padding: 1rem ;
+	border : 1px solid rgb(64, 64, 64) ;
+	color : black ;
+	background-color:  #c7c1c1 ;
+	font-size : 1.2rem ; 
+}
+
+.searchbar
+{
+	padding: 1em 0 ;
+}
+
+input[type='search']:focus
+{
+	border-color: #2e2b2b ;
+	box-shadow: 0 0 5px rgba(138, 133, 132, 1);
+	outline-color: #241d1d ;
+}
+
+@media (max-width: 600px)
+{
+	.searchbox
+	{
+		padding: 0.5rem ;
+		margin : 0.2rem -1rem ;
+	}
+}

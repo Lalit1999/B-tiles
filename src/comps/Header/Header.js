@@ -2,13 +2,10 @@ import React from 'react' ;
 import {Link} from'react-router-dom' ;
 import CheeseburgerMenu from 'cheeseburger-menu' ;
 import HamburgerMenu from 'react-hamburger-menu' ;
-import Popup from "reactjs-popup";
 
 import Menu from './Menu.js' ;
 import Logo from '../images/b.jpg' ;
 import './header.css' ;
-
-import int3 from '../images/int3.jpg' ;
 
 class Header extends React.Component
 {	constructor(props) {

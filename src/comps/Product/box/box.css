@@ -1,0 +1,29 @@
+.box
+{
+	display: inline-block;
+	margin: 0.5em ;
+	padding: 0.5em ;
+	border-radius: 0.5rem ;
+	border : 1px solid black;
+	text-align: center;
+}
+
+.box-image
+{
+	width: 200px;
+	height: 200px ;
+}
+
+.box-name
+{
+	font-size: 1.3rem ;
+}
+
+.box button
+{
+	background-color: black ;
+	color: white;
+	box-shadow: none ;
+	border: none;
+	font-size: 1.1rem ; 
+}
