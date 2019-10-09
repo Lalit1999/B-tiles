@@ -2,3 +2,8 @@
 {
 	margin-top: 9.3em ;
 }
+
+*:focus
+{
+	outline: 0 ;
+}

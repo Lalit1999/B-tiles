@@ -1,0 +1,17 @@
+.cart-box
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	bottom: 20px ;
+	right: 20px ;
+	max-width: 20vw;
+	z-index: 10 ;
+	background-color: white ;
+	padding: 0.3em ;
+	font-size: 2rem ;
+	border-radius: 0.5rem ;
+	box-shadow: 4px 4px 12px 1px rgba(0,0,0,0.75);
+}
+
